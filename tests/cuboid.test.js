@@ -15,7 +15,13 @@ describe("the cuboid class", () => {
     })
 
     test("colour should be the same as colour value", () => {
-        const c2 = new Cuboid(3, 5, 9, 'blue')
+        const c2 = new Cuboid(3, 5, 9,)
         expect(c2.colour).toBe('blue')
+    })
+
+    test("change colour", () => {
+        const c3 = new Cuboid(3, 5, 9,)
+        c3.paint("red")
+        expect(c3.colour).toBe("red")
     })
 })
