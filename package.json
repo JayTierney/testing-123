@@ -1,0 +1,22 @@
+{
+  "name": "testing-123",
+  "version": "1.0.0",
+  "description": "The purpose of this repo is to give you some experience writing tests using the Jest testing library. You can check out [their documentation](https://jestjs.io/docs/getting-started) any time if there's anything you need to know.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayTierney/testing-123.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayTierney/testing-123/issues"
+  },
+  "homepage": "https://github.com/JayTierney/testing-123#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}

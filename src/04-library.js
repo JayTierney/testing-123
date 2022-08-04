@@ -36,3 +36,5 @@ class User {
   }
 
 }
+
+module.exports = {Book}
